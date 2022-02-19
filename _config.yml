@@ -16,7 +16,7 @@
 title: Pentesting Log
 description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cptee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://cptee.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
 
