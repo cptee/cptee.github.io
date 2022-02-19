@@ -66,7 +66,6 @@ layout: table_wrappers
       {% endif %}
     </nav>
     <footer class="site-footer">
-      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
     </footer>
   </div>
   <div class="main" id="top">
@@ -81,23 +80,13 @@ layout: table_wrappers
         </div>
       {% endif %}
       {% include header_custom.html %}
-      {% if site.aux_links %}
         <nav aria-label="Auxiliary" class="aux-nav">
-          <ul class="aux-nav-list">
-            {% for link in site.aux_links %}
-              <li class="aux-nav-list-item">
-                <a href="{{ link.last }}" class="site-button"
-                  {% if site.aux_links_new_tab %}
-                  target="_blank" rel="noopener noreferrer"
-                  {% endif %}
-                >
-                  {{ link.first }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+                <div class="social-media-div">
+                  <a href="https://github.com/cptee" target="_blank" rel="noopener noreferrer"><img class="social-media-icon" src="/assets/images/GitHub-Mark-Light-64px.png"></a>
+                  <a href="https://www.linkedin.com/in/lucas-shiozawa/" target="_blank" rel="noopener noreferrer"><img class="linkedin-social-media-icon" src="/assets/images/linkedin.png"></a>
+                  <a href="https://app.hackthebox.com/profile/512145" target="_blank" rel="noopener noreferrer"><img class="social-media-icon" src="/assets/images/hack-the-box.256x256.png"></a>
+                </div>
         </nav>
-      {% endif %}
     </div>
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
