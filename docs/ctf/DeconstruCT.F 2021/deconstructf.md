@@ -13,4 +13,4 @@ A one of a kind, 24-hour jeopardy style CTF, the first ever organized by GDSC VI
 Beginner Friendly. Pro Friendly.
 Inviting everyone! Participate for the experience of a lifetime and stand a chance for exciting goodies and prizes!
 
-[Link button](https://ctftime.org/event/1453/){: .btn }
+[CTF TIME](https://ctftime.org/event/1453/){: .btn }
