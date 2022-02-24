@@ -7,6 +7,7 @@ nav_exclude: true
 ---
 
 # Recent updates
+
 | Name        | Description         | URL |
 |:-------------|:------------------|:------|
 | HTB Horizontall  | Walkthrough for retired HTB Machine Horizontall | <a href="/htb/horizontall">LINK</a>  |
