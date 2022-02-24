@@ -6,5 +6,5 @@ nav_order: 4
 ---
 # About
 
-Under Construction
+Coming Soon!
 {: .fs-6 .fw-300 }

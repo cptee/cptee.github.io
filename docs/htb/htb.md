@@ -6,7 +6,6 @@ has_children: true
 permalink: /htb/
 ---
 
-# Hack The Box Walkthroughs
-
-Under Construction
+# Hack The Box
+Some lab reports from my experiences @ htb.
 {: .fs-6 .fw-300 }

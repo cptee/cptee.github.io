@@ -7,6 +7,6 @@ permalink: /ctf/
 ---
 
 # Capture the Flag
+Some lab reports from my experiences capturing flags.
 
-Under Construction
 {: .fs-6 .fw-300 }
