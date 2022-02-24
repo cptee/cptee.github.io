@@ -11,12 +11,14 @@ permalink: /htb/horizontall
 ![Screenshot 1](/assets/images/htb/horizontall/banner.png)
 - OS: Ubuntu
 - Server: Nginx 1.14
+
 # 0. Preparation
 1. Add 10.10.11.10 to /etc/hosts as horizontall.htb
+
 # 1. Enumeration
 ## 1.1 NMAP
 ```
-sudo nmap -sS 10.10.11.105 -p- --min-rate=1000
+# sudo nmap -sS 10.10.11.105 -p- --min-rate=1000
 
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-03 17:27 JST
 Warning: 10.10.11.105 giving up on port because retransmission cap hit (10).
@@ -28,9 +30,8 @@ PORT   STATE SERVICE
 80/tcp open  http
 
 Nmap done: 1 IP address (1 host up) scanned in 80.47 seconds
-```
-```
-sudo nmap -sV 10.10.11.105 -p20,80 
+
+# sudo nmap -sV 10.10.11.105 -p20,80 
 
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-03 17:32 JST
 Nmap scan report for 10.10.11.105
@@ -64,10 +65,9 @@ python3 dirsearch.py -u http://horizontall.htb
 [17:57:39] 200 -    4KB - /favicon.ico                                      
 [17:57:42] 301 -  194B  - /img  ->  http://horizontall.htb/img/                                       
 [17:57:43] 200 -  901B  - /index.html                                                                          
-[17:57:45] 403 -  580B  - /js/                                                                          
-                                 
+[17:57:45] 403 -  580B  - /js/                                                                      
 Task Completed 
- ```
+```
 
 ```
 DirBuster
@@ -196,7 +196,7 @@ X-XSS-Protection: 1; mode=block
 X-Powered-By: Strapi <strapi.io>
 
 {"data":{"uuid":"a55da3bd-9693-4a08-9279-f9df57fd1817","currentEnvironment":"development","autoReload":false,"strapiVersion":"3.0.0-beta.17.4"}}
-```
+ ```
 
 # 2. Foothold (Strapi CMS 3.0.0-beta.17.4 - Remote Code Execution (RCE) (Unauthenticated))
 <a href="https://www.exploit-db.com/exploits/50239" target="_blank" rel="noopener noreferer">https://www.exploit-db.com/exploits/50239</a>
