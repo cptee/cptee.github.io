@@ -318,12 +318,11 @@ tcp6       0      0 :::80                   :::*                    LISTEN
 
 ## 4.2 Chisel
 Reference: <a href="https://www.youtube.com/watch?v=gr8ZKQpYiug" target="_blank" rel="noopener noreferer">https://www.youtube.com/watch?v=gr8ZKQpYiug</a>
-Target
 ```
+# Target
 chisel client 10.10.14.97:8000 R:8001:127.0.0.1:8000
-```
-Attacker
-```
+
+# Attacker
 chisel server 8000 --reverse 
 ```
 Access 127.0.0.1:8001 
