@@ -2,7 +2,7 @@
 layout: default
 title: Horizontall
 parent: Hack The Box
-nav_order: 2
+nav_order: 1
 has_children: false
 permalink: /htb/horizontall
 ---
