@@ -2,7 +2,7 @@
 layout: default
 title: Please
 parent: DeconstruCT.F 2021
-grand_parent: CTF Walkthroughs
+grand_parent: Capture the Flag
 nav_order: 1
 has_children: false
 permalink: /ctf/deconstructf2021/please
