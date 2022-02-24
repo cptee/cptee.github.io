@@ -1,12 +1,12 @@
 ---
 layout: default
-title: CTF Walkthroughs
+title: Capture the Flag
 nav_order: 2
 has_children: true
 permalink: /ctf/
 ---
 
-# CTF Walkthroughs
+# Capture the Flag
 
 Under Construction
 {: .fs-6 .fw-300 }
