@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /7J0Th9f4cVbzwSo9
+nav_exclude: true
 ---
 
 # Churrasquinho top

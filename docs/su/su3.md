@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /rzkqY0eeo7yEgdcA
+nav_exclude: true
 ---
 
 # O pedido do Koiti

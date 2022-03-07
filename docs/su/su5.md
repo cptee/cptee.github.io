@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /moyQvrinyxt4uUnE
+nav_exclude: true
 ---
 
 # Feliz Aniversário Su!

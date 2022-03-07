@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /62LiOACTLkiIzYY4
+nav_exclude: true
 ---
 
 # Cadê a caixa do Jordan?
