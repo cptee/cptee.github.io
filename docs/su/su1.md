@@ -1,4 +1,5 @@
 ---
+title: Cade eu?
 layout: default
 permalink: /LTTkxXQ4gqzwAlOE
 nav_exclude: true
@@ -13,7 +14,7 @@ Como sempre na vida de Sucas, nada vem fácil..
 
 Dessa vez, seu air force sumiu logo no dia que comprei.
 
-Pra dar aquela enganada, coloquei seu jordan na caixa mas acho que não deu muito certo né..
+Pra tentar esconder, coloquei seu jordan na caixa mas acho que não deu muito certo né..
 
 A pessoa que roubou deixou apenas esse bilhete:
 ```

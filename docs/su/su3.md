@@ -1,13 +1,14 @@
 ---
+title: O pedido do Koiti
 layout: default
 permalink: /rzkqY0eeo7yEgdcA
 nav_exclude: true
 ---
 
 # O pedido do Koiti
-É.. acho que esse carvão que ficou o ano todo aqui fora não vai dar pra usar no churras.. 
+É.. acho que esse carvão que ficou o ano todo aqui fora não vai servir pro churras.. 
 
-Mas o que importa é que estamos cada vez mais perto do presentinho!
+Mas o que importa é que estamos cada vez mais perto do final!
 
 Aqui vai a próxima dica:
 
