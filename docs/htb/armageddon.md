@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Armageddon
+description: Walkthrough for retired HTB box Armageddon
 parent: Hack The Box
 nav_order: 1
 has_children: false
@@ -10,6 +11,7 @@ permalink: /htb/armageddon
 # Armageddon Lab Report
 Drupal 7.56
 
+![Screenshot 1](/assets/images/htb/armageddon/banner.png)
 ## 1. Connect to VPN
 ``` bash
 sudo openvpn vpn.ovpn
