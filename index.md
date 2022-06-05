@@ -7,9 +7,9 @@ nav_exclude: true
 ---
 
 # Recent activity
-
-| Name        | Description         | URL |
-|:-------------|:------------------|:------|
-| HTB Armageddon   | Walkthrough for retired HTB Machine Armageddon | <a href="/htb/armageddon">LINK</a>  |
-| HTB Horizontall  | Walkthrough for retired HTB Machine Horizontall | <a href="/htb/horizontall">LINK</a>  |
-| Please Challenge | Walkthrough for Please Challenge of DeconstruCT.F 2021 | <a href="/ctf/deconstructf2021/please">LINK</a>  |
+{% assign sorted = site.pages | sort:'date' | reverse %}
+{% for page in sorted %}
+{% if page.grand_parent == 'Capture the Flag' or page.parent == 'Hack The Box' or page.parent == 'blog' %}  
+{{ page.date | date: "%d %b %Y" }}: {{ page.title }} - {{ page.description }}  <a href="{{ page.url }}">LINK</a>  |
+{% endif %}
+{% endfor %}

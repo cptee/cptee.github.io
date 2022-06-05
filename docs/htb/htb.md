@@ -7,5 +7,5 @@ permalink: /htb/
 ---
 
 # Hack The Box
-Some lab reports from my experiences @ htb.
+Lab reports from my experiences at htb.
 {: .fs-6 .fw-300 }

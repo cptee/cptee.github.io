@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Horizontall
+description: Walkthrough for retired HTB box Horizontall
 parent: Hack The Box
 nav_order: 1
 has_children: false
 permalink: /htb/horizontall
+date: 2021-12-20
 ---
 
 # Horizontall Lab Report

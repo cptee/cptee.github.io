@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DeconstruCT.F 2021
+description: Walkthrough for DesconstruCT.F 2021's Challenges solved by Cptee
 parent: Capture the Flag
 nav_order: 1
 has_children: true

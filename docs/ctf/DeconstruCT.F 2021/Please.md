@@ -2,7 +2,9 @@
 layout: default
 title: Please
 parent: DeconstruCT.F 2021
+description: Please Challenge Walkthrough. Please is a challenge that requires you to adjust your requests according to the server's response.
 grand_parent: Capture the Flag
+date: 2021-12-06
 nav_order: 1
 has_children: false
 permalink: /ctf/deconstructf2021/please

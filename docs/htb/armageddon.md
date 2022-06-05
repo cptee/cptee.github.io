@@ -6,6 +6,7 @@ parent: Hack The Box
 nav_order: 1
 has_children: false
 permalink: /htb/armageddon
+date: 2021-12-20
 ---
 
 # Armageddon Lab Report
