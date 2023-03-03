@@ -1,5 +1,5 @@
 current directory: /Users/lucas/Documents/Git/cptee.github.io/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230303-27938-jezg67.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230303-37400-183mjrq.rb extconf.rb
 creating Makefile
 
 current directory: /Users/lucas/Documents/Git/cptee.github.io/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -88,4 +88,4 @@ ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots
 
 current directory: /Users/lucas/Documents/Git/cptee.github.io/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230303-27938-jli9c1/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230303-37400-6qflod/sassc

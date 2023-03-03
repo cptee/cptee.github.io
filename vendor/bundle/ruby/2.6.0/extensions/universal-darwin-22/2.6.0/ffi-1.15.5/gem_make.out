@@ -1,5 +1,5 @@
 current directory: /Users/lucas/Documents/Git/cptee.github.io/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230303-27938-16u1rdr.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230303-37400-1k1ifwp.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... no
 checking for ffi_prep_closure_loc() in -llibffi... no
 checking for ffi_prep_closure_loc() in -llibffi-8... no
@@ -8216,4 +8216,4 @@ Variadic.c:218:58: note: ')' token is here
 compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/9e200cfa-7d96-11ed-886f-a23c4f261b56/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.2.Internal.sdk/usr/local/lib'
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230303-27938-kfb76w
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230303-37400-l2zkm
