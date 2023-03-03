@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Schooled
-description: Walkthrough for retired HTB box Schooled. Schooled is a Medium level box. In order to root it one must learn how to hijack sessions via XSS.
+description: Walkthrough for retired HTB box Schooled.
 parent: Hack The Box
 nav_order: 1
 has_children: false
 permalink: /htb/schooled
 date: 2022-06-07
+image: /assets/images/htb/schooled/banner.png
 ---
 # Schooled Lab Report
 ![Screenshot 1](/assets/images/htb/schooled/banner.png)

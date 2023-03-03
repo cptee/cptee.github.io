@@ -7,6 +7,7 @@ nav_order: 1
 has_children: false
 permalink: /htb/horizontall
 date: 2021-12-20
+image: /assets/images/htb/horizontall/banner.png
 ---
 
 # Horizontall Lab Report

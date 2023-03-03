@@ -7,6 +7,7 @@ nav_order: 1
 has_children: false
 permalink: /htb/backdoor
 date: 2022-06-06
+image: /assets/images/htb/backdoor/banner.png
 ---
 # Backdoor Lab Report
 ![Screenshot 1](/assets/images/htb/backdoor/banner.png)

@@ -8,6 +8,7 @@ date: 2021-12-06
 nav_order: 1
 has_children: false
 permalink: /ctf/deconstructf2021/please
+image: /assets/images/deconstructf/please1.png
 ---
 
 # Please Challenge Writeup (03/10/2021)

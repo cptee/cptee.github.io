@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pentesting Log by Cptee
+title: Cptee's Cybersec Notes
 description: A Jekyll theme for documentation
 domain: cptee.github.io
 baseurl: / # the subpath of your site, e.g. /blog
@@ -33,7 +33,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # include: ["docs/tests/"]
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
+#logo: "/assets/images/profile.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
